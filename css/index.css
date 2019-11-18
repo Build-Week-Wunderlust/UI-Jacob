@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -131,4 +159,80 @@ table {
 }
 html {
   font-size: 62.5%;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 5px 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #362E34;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+nav a:hover {
+  color: #94909B;
+}
+nav .sign-up-btn {
+  background-color: #0E7C7B;
+  padding: 8px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: #FFFFFF;
+  border: 1px solid #0E7C7B;
+}
+nav .sign-up-btn:hover {
+  color: #362E34;
+  background-color: #FFFFFF;
+}
+nav .log-in-btn {
+  background-color: #F0F0F0;
+  padding: 8px 10px;
+  border-radius: 5px;
+  color: #362E34;
+}
+nav .log-in-btn:hover {
+  color: #F0F0F0;
+  background-color: #362E34;
+}
+header .header-img {
+  width: 100%;
+}
+.testimonials {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 3% 0;
+}
+.testimonials .cards {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  margin: 2%;
+}
+.testimonials .cards .card-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F0F0;
+  padding: 5% 5%;
+}
+.testimonials .cards .card-text h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.testimonials .cards .card-text p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 125%;
 }
