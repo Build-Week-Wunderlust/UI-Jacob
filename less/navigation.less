@@ -2,8 +2,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    padding: 5px 20px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 5px 0;
+    
+    
+    .logo {
+        margin-left: 8%; 
+    }
     
     a {
         text-decoration: none;
@@ -14,6 +20,12 @@ nav {
     a:hover {
         color: @mountain-mist;
     }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
     .sign-up-btn {
         background-color: @surfie-green;
         padding: 8px 10px;
@@ -31,7 +43,6 @@ nav {
         background-color: @gallery;
         padding: 8px 10px;
         border-radius: 5px;
-        
         color: @thunder;
         &:hover {
             color: @gallery;

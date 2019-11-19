@@ -172,8 +172,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 100%;
-  padding: 5px 20px;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+nav .logo {
+  margin-left: 8%;
 }
 nav a {
   text-decoration: none;
@@ -183,6 +187,10 @@ nav a {
 }
 nav a:hover {
   color: #94909B;
+}
+nav .buttons {
+  display: flex;
+  justify-content: space-between;
 }
 nav .sign-up-btn {
   background-color: #0E7C7B;
@@ -206,20 +214,81 @@ nav .log-in-btn:hover {
   color: #F0F0F0;
   background-color: #362E34;
 }
-header .header-img {
-  width: 100%;
+header {
+  background-image: url('/img/helicopter.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+}
+header .img-overlay {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60%;
+  padding-top: 5%;
+}
+@media (max-width: 800px) {
+  header .img-overlay {
+    margin: 0 auto;
+    max-width: 80%;
+    border: 1px solid black;
+  }
+}
+header .img-overlay h2 {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+header .img-overlay h3 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-bottom: 0.5%;
+}
+header .img-overlay p {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+header .img-overlay input {
+  padding: 10px 0;
+  width: 300px;
+  border-radius: 5px 0 0 5px;
+}
+header .img-overlay .find-button {
+  display: flex;
+  align-items: center;
+}
+header .img-overlay .find-button p {
+  background: #0E7C7B;
+  padding: 11px 30px;
+  border-radius: 0 5px 5px 0;
 }
 .testimonials {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  margin: 3% 0;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+@media (max-width: 500px) {
+  .testimonials {
+    flex-direction: column;
+  }
 }
 .testimonials .cards {
   display: flex;
-  justify-content: center;
-  width: 33%;
-  margin: 2%;
+  width: 32%;
+}
+@media (max-width: 500px) {
+  .testimonials .cards {
+    width: 100%;
+  }
+}
+.testimonials .cards img {
+  max-width: 100%;
 }
 .testimonials .cards .card-text {
   display: flex;
