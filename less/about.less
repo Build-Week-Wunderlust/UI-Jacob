@@ -19,13 +19,26 @@
     font-weight: 600;
 }
 
+h2 {
+    font-size: 4rem;
+    margin-top: 1%;
+    font-weight: 600;
+    text-align: center;
+    @media @tablet {
+        font-size: 3rem;
+    }
+    @media @phone {
+        display: none;
+    }
+}
+
 .about-text {
         
         text-align: center;
         width: 95%;
         margin: 0 auto;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding: 2% 2%;
         line-height: 160%;
         @media @tablet {
@@ -38,12 +51,11 @@
 
 
 
+
 .team {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
-    
 }
 .team-member {
     width: 30%;
@@ -53,33 +65,67 @@
     flex-direction: column;
     align-items: center;
     @media @tablet {
-        width: 48%;
+        width: 44%;
         padding: 0;
+    }
+    .bio {
+        display: flex;
+        justify-content: space-around;
+        
+        width: 90%;
+        margin-bottom: 2%;
+        @media @phone {
+            width: 80%;
+        }
+        img {
+            cursor: pointer;
+            width: 60px;
+            @media @tablet {
+                width: 40px;
+            }
+            @media @phone {
+                width: 20%;
+            }
+        }
+    }
+
+    .names {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
     h3 {
         font-weight: 500;
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         margin-bottom: 2%;
         @media @tablet {
             font-size: 1.8rem;
         }
+        @media @phone {
+            font-size: 1.5rem;
+        }
     }
     p {
         font-weight: 600;
-        font-size: 1.8rem; 
+        font-size: 1.6rem; 
         margin-bottom: 2%;
         @media @tablet {
             font-size: 1.5rem;
         }
         @media @phone {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
+    
     img {
-        max-width: 80%;
+        max-width: 70%;
+        border-radius: 10px;
         @media @tablet {
-            max-width: 90%;
+            max-width: 75%;
+        }
+        @media @phone {
+            max-width: 80%;
         }
     }
 }

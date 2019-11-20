@@ -193,7 +193,7 @@ nav .left-nav {
 nav .home-link {
   margin-right: 2%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 }
 @media (max-width: 500px) {
   nav .logo {
@@ -285,7 +285,7 @@ nav .log-in-btn:hover {
   background-size: cover;
   height: 656px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .hero-img {
     height: 400px;
   }
@@ -298,7 +298,7 @@ nav .log-in-btn:hover {
   margin-left: 60%;
   padding-top: 5%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .hero-img .img-overlay {
     margin: 0 auto;
     max-width: 80%;
@@ -433,6 +433,7 @@ nav .log-in-btn:hover {
 .testimonials .cards {
   display: flex;
   width: 32%;
+  max-width: 100%;
 }
 @media (max-width: 500px) {
   .testimonials .cards {
@@ -478,16 +479,32 @@ footer {
   text-align: center;
   font-weight: 600;
 }
+h2 {
+  font-size: 4rem;
+  margin-top: 1%;
+  font-weight: 600;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 500px) {
+  h2 {
+    display: none;
+  }
+}
 .about-text {
   text-align: center;
   width: 95%;
   margin: 0 auto;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 2% 2%;
   line-height: 160%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .about-text {
     font-size: 1.4rem;
   }
@@ -509,42 +526,83 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .team-member {
-    width: 48%;
+    width: 44%;
     padding: 0;
   }
 }
-.team-member h3 {
-  font-weight: 500;
-  font-size: 2.7rem;
+.team-member .bio {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
   margin-bottom: 2%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
+  .team-member .bio {
+    width: 80%;
+  }
+}
+.team-member .bio img {
+  cursor: pointer;
+  width: 60px;
+}
+@media (max-width: 1200px) {
+  .team-member .bio img {
+    width: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .team-member .bio img {
+    width: 20%;
+  }
+}
+.team-member .names {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.team-member h3 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+}
+@media (max-width: 1200px) {
   .team-member h3 {
     font-size: 1.8rem;
   }
 }
+@media (max-width: 500px) {
+  .team-member h3 {
+    font-size: 1.5rem;
+  }
+}
 .team-member p {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 2%;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .team-member p {
     font-size: 1.5rem;
   }
 }
 @media (max-width: 500px) {
   .team-member p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 .team-member img {
-  max-width: 80%;
+  max-width: 70%;
+  border-radius: 10px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .team-member img {
-    max-width: 90%;
+    max-width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .team-member img {
+    max-width: 80%;
   }
 }
