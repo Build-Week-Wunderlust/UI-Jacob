@@ -506,7 +506,7 @@ nav .log-in-btn:hover {
 }
 @media (max-width: 800px) {
   .team-member h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 .team-member p {
