@@ -180,7 +180,6 @@ nav {
   nav {
     height: 56px;
     justify-content: center;
-    flex-direction: row-reverse;
     background: #0E7C7B;
     max-width: 100%;
     color: #FFFFFF;
@@ -223,7 +222,7 @@ nav a:hover {
 }
 nav .buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 nav .sign-up-btn {
   background-color: #0E7C7B;
@@ -247,7 +246,7 @@ nav .sign-up-btn:hover {
   nav .sign-up-btn {
     padding: 0;
     margin: 0;
-    margin-right: 25px;
+    margin-left: 15px;
     color: #FFFFFF;
   }
 }
@@ -274,7 +273,6 @@ nav .log-in-btn:hover {
   nav .log-in-btn {
     padding: 0;
     margin: 0;
-    margin-right: 25px;
     color: #FFFFFF;
     border: none;
     background: none;
@@ -463,7 +461,7 @@ nav .log-in-btn:hover {
 footer {
   margin-top: 2%;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   background: #0E7C7B;
 }
 .hero-img-about {
