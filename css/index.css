@@ -187,7 +187,7 @@ nav {
   }
 }
 nav .logo {
-  margin-left: 9%;
+  margin-left: 7%;
 }
 @media (max-width: 800px) {
   nav .logo {
@@ -461,6 +461,13 @@ nav .log-in-btn:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 368px;
+}
+.about-overlay {
+  color: #FFFFFF;
+  font-size: 4rem;
+  display: none;
+  text-align: center;
+  font-weight: 600;
 }
 .about-text {
   text-align: center;
