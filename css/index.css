@@ -184,6 +184,7 @@ nav a {
   color: #362E34;
   font-size: 1.7rem;
   font-weight: 500;
+  cursor: pointer;
 }
 nav a:hover {
   color: #94909B;
@@ -219,7 +220,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh;
+  height: 60vh;
 }
 header .img-overlay {
   color: #FFFFFF;
@@ -233,7 +234,6 @@ header .img-overlay {
   header .img-overlay {
     margin: 0 auto;
     max-width: 80%;
-    border: 1px solid black;
   }
 }
 header .img-overlay h2 {
@@ -253,25 +253,60 @@ header .img-overlay p {
   font-weight: 500;
 }
 header .img-overlay input {
-  padding: 10px 0;
-  width: 300px;
+  padding: 5.5px 0;
+  width: 50%;
   border-radius: 5px 0 0 5px;
+  font-size: 2rem;
 }
 header .img-overlay .find-button {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 header .img-overlay .find-button p {
   background: #0E7C7B;
   padding: 11px 30px;
   border-radius: 0 5px 5px 0;
 }
+header .img-overlay .find-button p:hover {
+  color: #0E7C7B;
+  background: #FFFFFF;
+}
+.tour-guide-sign-up {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2% 0;
+}
+.tour-guide-sign-up h2 {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+.tour-guide-sign-up h3 {
+  font-size: 2rem;
+  padding: 3% 0;
+}
+.tour-guide-sign-up .large-sign-up {
+  background: #0E7C7B;
+  width: 90%;
+  padding: 2% 0;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 3.6rem;
+  border: 1px solid #0E7C7B;
+  cursor: pointer;
+}
+.tour-guide-sign-up .large-sign-up:hover {
+  color: #0E7C7B;
+  background: #FFFFFF;
+}
 .testimonials {
   display: flex;
   justify-content: space-between;
-  width: 97%;
+  width: 96%;
   margin: 0 auto;
-  padding: 2% 0;
 }
 @media (max-width: 500px) {
   .testimonials {
