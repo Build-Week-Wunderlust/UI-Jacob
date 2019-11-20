@@ -514,6 +514,16 @@ nav .log-in-btn:hover {
   font-size: 1.8rem;
   margin-bottom: 2%;
 }
+@media (max-width: 800px) {
+  .team-member p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .team-member p {
+    font-size: 1.2rem;
+  }
+}
 .team-member img {
   max-width: 80%;
 }
