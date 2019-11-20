@@ -270,7 +270,7 @@ nav .log-in-btn:hover {
     background: none;
   }
 }
-header {
+.hero-img {
   background-image: url('/img/helicopter.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -278,11 +278,11 @@ header {
   height: 656px;
 }
 @media (max-width: 800px) {
-  header {
+  .hero-img {
     height: 400px;
   }
 }
-header .img-overlay {
+.hero-img .img-overlay {
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
@@ -291,59 +291,59 @@ header .img-overlay {
   padding-top: 5%;
 }
 @media (max-width: 800px) {
-  header .img-overlay {
+  .hero-img .img-overlay {
     margin: 0 auto;
     max-width: 80%;
   }
 }
-header .img-overlay h2 {
+.hero-img .img-overlay h2 {
   font-size: 4.8rem;
   font-weight: 600;
 }
 @media (max-width: 500px) {
-  header .img-overlay h2 {
+  .hero-img .img-overlay h2 {
     font-size: 2.5rem;
   }
 }
-header .img-overlay h3 {
+.hero-img .img-overlay h3 {
   font-size: 3.6rem;
   font-weight: 600;
   margin-top: 2%;
   margin-bottom: 0.5%;
 }
 @media (max-width: 500px) {
-  header .img-overlay h3 {
+  .hero-img .img-overlay h3 {
     font-size: 2rem;
   }
 }
-header .img-overlay p {
+.hero-img .img-overlay p {
   padding-bottom: 20px;
   padding-top: 10px;
   font-size: 1.6rem;
   font-weight: 500;
 }
 @media (max-width: 500px) {
-  header .img-overlay p {
+  .hero-img .img-overlay p {
     font-size: 1.6rem;
   }
 }
-header .img-overlay input {
+.hero-img .img-overlay input {
   padding: 5.5px 0;
   width: 50%;
   border-radius: 5px 0 0 5px;
   font-size: 2rem;
 }
-header .img-overlay .find-button {
+.hero-img .img-overlay .find-button {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-header .img-overlay .find-button p {
+.hero-img .img-overlay .find-button p {
   background: #0E7C7B;
   padding: 11px 30px;
   border-radius: 0 5px 5px 0;
 }
-header .img-overlay .find-button p:hover {
+.hero-img .img-overlay .find-button p:hover {
   color: #0E7C7B;
   background: #FFFFFF;
 }
@@ -449,4 +449,11 @@ header .img-overlay .find-button p:hover {
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 125%;
+}
+.hero-img-about {
+  background-image: url('/img/mountains.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 368px;
 }
