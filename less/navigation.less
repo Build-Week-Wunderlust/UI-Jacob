@@ -15,9 +15,9 @@ nav {
     }
     
     .logo {
-        margin-left: 7%; 
+        // margin-left: 8%; 
         @media @tablet {
-            margin-left: 12%;
+            // margin-left: 12%;
         }
         @media @phone {
             display: none;
@@ -42,16 +42,23 @@ nav {
     }
     .buttons {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        margin-left: -8%;
+        @media @tablet {
+            margin-left: -12%;
+        }
     }
     
     
     .sign-up-btn {
         background-color: @surfie-green;
-        padding: 8px 10px;
+        padding: 8px 0px;
+        width: 80px;
+        text-align: center;
         border-radius: 5px;
-        margin-right: 15px;
-        color: @white;
+        
+        
+        
         border: 1px solid @surfie-green;
         &:hover {
             color: @thunder;
@@ -70,9 +77,12 @@ nav {
     }
     .log-in-btn {
         background-color: @gallery;
-        padding: 8px 10px;
+        padding: 8px 0px;
+        text-align: center;
+        width: 80px;
         border-radius: 5px;
         color: @thunder;
+        margin-left: 15px;
         &:hover {
             color: @gallery;
             background-color: @thunder;

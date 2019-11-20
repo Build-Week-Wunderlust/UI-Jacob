@@ -186,13 +186,7 @@ nav {
     color: #FFFFFF;
   }
 }
-nav .logo {
-  margin-left: 7%;
-}
 @media (max-width: 800px) {
-  nav .logo {
-    margin-left: 12%;
-  }
 }
 @media (max-width: 500px) {
   nav .logo {
@@ -221,14 +215,20 @@ nav a:hover {
 }
 nav .buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: -8%;
+}
+@media (max-width: 800px) {
+  nav .buttons {
+    margin-left: -12%;
+  }
 }
 nav .sign-up-btn {
   background-color: #0E7C7B;
-  padding: 8px 10px;
+  padding: 8px 0px;
+  width: 80px;
+  text-align: center;
   border-radius: 5px;
-  margin-right: 15px;
-  color: #FFFFFF;
   border: 1px solid #0E7C7B;
 }
 nav .sign-up-btn:hover {
@@ -251,9 +251,12 @@ nav .sign-up-btn:hover {
 }
 nav .log-in-btn {
   background-color: #F0F0F0;
-  padding: 8px 10px;
+  padding: 8px 0px;
+  text-align: center;
+  width: 80px;
   border-radius: 5px;
   color: #362E34;
+  margin-left: 15px;
 }
 nav .log-in-btn:hover {
   color: #F0F0F0;
@@ -454,6 +457,12 @@ nav .log-in-btn:hover {
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 125%;
+}
+footer {
+  margin-top: 2%;
+  width: 1440px;
+  height: 100px;
+  background: #0E7C7B;
 }
 .hero-img-about {
   background-image: url('/img/mountains.jpeg');
