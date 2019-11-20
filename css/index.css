@@ -471,6 +471,16 @@ nav .log-in-btn:hover {
   padding: 2% 2%;
   line-height: 160%;
 }
+@media (max-width: 800px) {
+  .about-text {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .about-text {
+    font-size: 1.2rem;
+  }
+}
 .team {
   display: flex;
   justify-content: center;
