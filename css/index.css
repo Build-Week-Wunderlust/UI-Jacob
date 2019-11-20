@@ -176,8 +176,23 @@ nav {
   margin: 0 auto;
   padding: 5px 0;
 }
+@media (max-width: 500px) {
+  nav {
+    height: 56px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background: #0E7C7B;
+    max-width: 100%;
+    color: #FFFFFF;
+  }
+}
 nav .logo {
   margin-left: 8%;
+}
+@media (max-width: 500px) {
+  nav .logo {
+    display: none;
+  }
 }
 nav a {
   text-decoration: none;
@@ -186,8 +201,18 @@ nav a {
   font-weight: 500;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+  nav a {
+    color: #FFFFFF;
+  }
+}
 nav a:hover {
   color: #94909B;
+}
+@media screen {
+  nav a:hover {
+    color: #94909B;
+  }
 }
 nav .buttons {
   display: flex;
@@ -205,6 +230,20 @@ nav .sign-up-btn:hover {
   color: #362E34;
   background-color: #FFFFFF;
 }
+@media (max-width: 500px) {
+  nav .sign-up-btn:hover {
+    color: #94909B;
+    background: none;
+  }
+}
+@media (max-width: 500px) {
+  nav .sign-up-btn {
+    padding: 0;
+    margin: 0;
+    margin-right: 25px;
+    color: #FFFFFF;
+  }
+}
 nav .log-in-btn {
   background-color: #F0F0F0;
   padding: 8px 10px;
@@ -215,12 +254,33 @@ nav .log-in-btn:hover {
   color: #F0F0F0;
   background-color: #362E34;
 }
+@media (max-width: 500px) {
+  nav .log-in-btn:hover {
+    color: #94909B;
+    background: none;
+  }
+}
+@media (max-width: 500px) {
+  nav .log-in-btn {
+    padding: 0;
+    margin: 0;
+    margin-right: 25px;
+    color: #FFFFFF;
+    border: none;
+    background: none;
+  }
+}
 header {
   background-image: url('/img/helicopter.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 656px;
+}
+@media (max-width: 800px) {
+  header {
+    height: 400px;
+  }
 }
 header .img-overlay {
   color: #FFFFFF;
@@ -240,17 +300,32 @@ header .img-overlay h2 {
   font-size: 4.8rem;
   font-weight: 600;
 }
+@media (max-width: 500px) {
+  header .img-overlay h2 {
+    font-size: 2.5rem;
+  }
+}
 header .img-overlay h3 {
   font-size: 3.6rem;
   font-weight: 600;
   margin-top: 2%;
   margin-bottom: 0.5%;
 }
+@media (max-width: 500px) {
+  header .img-overlay h3 {
+    font-size: 2rem;
+  }
+}
 header .img-overlay p {
   padding-bottom: 20px;
   padding-top: 10px;
   font-size: 1.6rem;
   font-weight: 500;
+}
+@media (max-width: 500px) {
+  header .img-overlay p {
+    font-size: 1.6rem;
+  }
 }
 header .img-overlay input {
   padding: 5.5px 0;
@@ -272,6 +347,15 @@ header .img-overlay .find-button p:hover {
   color: #0E7C7B;
   background: #FFFFFF;
 }
+.lower-half {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .lower-half {
+    flex-direction: column-reverse;
+  }
+}
 .tour-guide-sign-up {
   display: flex;
   justify-content: center;
@@ -282,9 +366,19 @@ header .img-overlay .find-button p:hover {
   font-size: 4.8rem;
   font-weight: 600;
 }
+@media (max-width: 500px) {
+  .tour-guide-sign-up h2 {
+    display: none;
+  }
+}
 .tour-guide-sign-up h3 {
   font-size: 2rem;
   padding: 3% 0;
+}
+@media (max-width: 500px) {
+  .tour-guide-sign-up h3 {
+    display: none;
+  }
 }
 .tour-guide-sign-up .large-sign-up {
   background: #0E7C7B;
@@ -301,6 +395,21 @@ header .img-overlay .find-button p:hover {
 .tour-guide-sign-up .large-sign-up:hover {
   color: #0E7C7B;
   background: #FFFFFF;
+}
+@media (max-width: 500px) {
+  .tour-guide-sign-up .large-sign-up {
+    width: 400px;
+  }
+}
+.logo2 {
+  display: none;
+}
+@media (max-width: 500px) {
+  .logo2 {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+  }
 }
 .testimonials {
   display: flex;
@@ -320,6 +429,7 @@ header .img-overlay .find-button p:hover {
 @media (max-width: 500px) {
   .testimonials .cards {
     width: 100%;
+    padding: 2% 1%;
   }
 }
 .testimonials .cards img {

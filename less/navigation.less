@@ -5,10 +5,20 @@ nav {
     max-width: 95%;
     margin: 0 auto;
     padding: 5px 0;
-    
+    @media @phone {
+        height: 56px;
+        justify-content: center;
+        flex-direction: row-reverse;
+        background: @surfie-green;
+        max-width: 100%;
+        color: @white;
+    }
     
     .logo {
         margin-left: 8%; 
+        @media @phone {
+            display: none;
+        }
     }
     
     a {
@@ -17,9 +27,15 @@ nav {
         font-size: 1.7rem;
         font-weight: 500;
         cursor: pointer;
+        @media @phone {
+            color: @white;
+        }
     }
     a:hover {
         color: @mountain-mist;
+        @media screen {
+            color: @mountain-mist;
+        }
     }
     .buttons {
         display: flex;
@@ -37,7 +53,16 @@ nav {
         &:hover {
             color: @thunder;
             background-color: @white;
-            
+            @media @phone {
+                color: @mountain-mist;
+                background: none;
+            }
+        }
+        @media @phone {
+            padding: 0;
+            margin: 0;
+            margin-right: 25px;
+            color: @white;
         }
     }
     .log-in-btn {
@@ -48,6 +73,18 @@ nav {
         &:hover {
             color: @gallery;
             background-color: @thunder;
+            @media @phone {
+                color: @mountain-mist;
+                background: none;
+            }
+        }
+        @media @phone {
+            padding: 0;
+            margin: 0;
+            margin-right: 25px;
+            color: @white;
+            border: none;
+            background: none;
         }
     }
     
