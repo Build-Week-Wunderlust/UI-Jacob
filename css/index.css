@@ -376,7 +376,7 @@ nav .log-in-btn:hover {
 .lower-half {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 @media (max-width: 500px) {
   .lower-half {
@@ -571,6 +571,12 @@ footer p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 15%;
+}
+@media (max-width: 500px) {
+  .about-bottom-half .team {
+    margin-bottom: 200px;
+  }
 }
 .about-bottom-half .team-member {
   width: 30%;
