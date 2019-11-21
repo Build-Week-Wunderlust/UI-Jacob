@@ -478,7 +478,7 @@ nav .log-in-btn:hover {
 }
 @media (max-width: 500px) {
   .testimonials .cards {
-    width: 80%;
+    width: 90%;
     padding: 2% 1%;
   }
 }
