@@ -1,0 +1,130 @@
+.hero-img-about {
+    background-image: url('/img/mountains.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 368px;
+}
+// .img-overlay-about {
+//     border: 2px solid red;
+//     height: 300px;
+// }
+
+.about-overlay {
+    padding-top: 30px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+
+.about-text {
+        
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 1.8rem;
+        padding: 2% 2%;
+        
+        line-height: 160%;
+        @media @tablet {
+            font-size: 1.4rem;
+        }
+        @media @phone {
+            font-size: 1.2rem;
+        }
+}
+
+.about-bottom-half {
+    h2 {
+        font-size: 4rem;
+        margin-top: 1%;
+        font-weight: 600;
+        text-align: center;
+        @media @tablet {
+            font-size: 3rem;
+        }
+        @media @phone {
+            display: none;
+        }
+    }
+    .team {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+        @media @phone {
+            margin-bottom: 100px;
+        }
+    }
+    .team-member {
+        width: 30%;
+        margin: 1%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @media @tablet {
+            width: 44%;
+            padding: 0;
+        }
+        @media @phone {
+            width: 100%;
+            margin-top: 30px;
+        }
+        .bio {
+            display: flex;
+            width: 70%;
+            justify-content: space-between;
+            margin-bottom: 2%;
+            
+            img {
+                cursor: pointer;
+                width: 50px;
+                @media @tablet {
+                    width: 40px;
+                }
+                
+            }
+        }
+    
+        .names {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        h3 {
+            font-weight: 500;
+            font-size: 2.2rem;
+            margin-bottom: 2%;
+            @media @tablet {
+                font-size: 1.7rem;
+            }
+            
+        }
+        p {
+            font-weight: 600;
+            font-size: 1.5rem; 
+            margin-bottom: 2%;
+            @media @tablet {
+                font-size: 1.4rem;
+            }
+            
+        }
+        
+        img {
+            max-width: 70%;
+            border-radius: 10px;
+            @media @tablet {
+                max-width: 75%;
+            }
+            @media @phone {
+                max-width: 70%;
+            }
+        }
+    }
+}
+
+

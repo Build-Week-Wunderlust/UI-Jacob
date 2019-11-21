@@ -1,0 +1,111 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 5px 0;
+    @media @phone {
+        height: 56px;
+        justify-content: center;
+        background: @surfie-green;
+        max-width: 100%;
+        color: @white;
+    }
+
+    .left-nav {
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        @media @phone {
+            margin-left: 20px;
+        }
+    }
+
+    .home-link {
+        margin-right: 2%;
+    }
+    
+    .logo {
+        // margin-left: 8%; 
+        @media @tablet {
+            // margin-left: 12%;
+        }
+        @media @phone {
+            display: none;
+        }
+    }
+    
+    a {
+        text-decoration: none;
+        color: @thunder;
+        font-size: 1.7rem;
+        font-weight: 500;
+        cursor: pointer;
+        @media @phone {
+            color: @white;
+             
+        }
+    }
+    a:hover {
+        color: @mountain-mist;
+        @media screen {
+            color: @mountain-mist;
+        }
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .sign-up-btn {
+        background-color: @surfie-green;
+        padding: 8px 0px;
+        width: 80px;
+        color: @white;
+        text-align: center;
+        margin-left: -25px;
+        border-radius: 5px;        
+        border: 1px solid @surfie-green;
+        &:hover {
+            color: @thunder;
+            background-color: @white;
+            @media @phone {
+                color: @mountain-mist;
+                background: none;
+            }
+        }
+        @media @phone {
+            padding: 0;
+            margin: 0;
+            margin-left: 15px;
+            color: @white;
+        }
+    }
+    .log-in-btn {
+        background-color: @gallery;
+        padding: 8px 0px;
+        text-align: center;
+        width: 80px;
+        border-radius: 5px;
+        color: @thunder;
+        margin-left: 15px;
+        &:hover {
+            color: @gallery;
+            background-color: @thunder;
+            @media @phone {
+                color: @mountain-mist;
+                background: none;
+            }
+        }
+        @media @phone {
+            padding: 0;
+            margin: 0;
+            color: @white;
+            border: none;
+            background: none;
+        }
+    }
+    
+}
