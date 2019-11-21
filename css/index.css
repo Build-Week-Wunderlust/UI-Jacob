@@ -231,7 +231,7 @@ nav .sign-up-btn {
   width: 80px;
   color: #FFFFFF;
   text-align: center;
-  margin-left: -25px;
+  margin-left: -20px;
   border-radius: 5px;
   border: 1px solid #0E7C7B;
 }
@@ -326,7 +326,7 @@ nav .log-in-btn:hover {
   font-size: 3.6rem;
   font-weight: 600;
   margin-top: 2%;
-  margin-bottom: 0.5%;
+  margin-bottom: 1%;
 }
 @media (max-width: 500px) {
   .hero-img .img-overlay h3 {
@@ -345,10 +345,12 @@ nav .log-in-btn:hover {
   }
 }
 .hero-img .img-overlay input {
-  padding: 5.5px 0;
+  padding: 8px 0;
   width: 50%;
   border-radius: 5px 0 0 5px;
-  font-size: 2rem;
+  font-size: 1.91rem;
+  padding-left: 16px;
+  border: none;
 }
 .hero-img .img-overlay .find-button {
   display: flex;
@@ -357,17 +359,14 @@ nav .log-in-btn:hover {
 }
 .hero-img .img-overlay .find-button p {
   background: #0E7C7B;
-  padding: 11px 30px;
+  padding: 11.2px 20px;
   border-radius: 0 5px 5px 0;
+  border-left: 1px solid #0E7C7B;
 }
 @media (max-width: 500px) {
   .hero-img .img-overlay .find-button p {
     padding: 11px 20px;
   }
-}
-.hero-img .img-overlay .find-button p:hover {
-  color: #0E7C7B;
-  background: #FFFFFF;
 }
 .lower-half {
   display: flex;
@@ -389,10 +388,12 @@ nav .log-in-btn:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding: 2% 0;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 .tour-guide-sign-up h2 {
   font-size: 4.8rem;
+  margin-bottom: 3%;
   font-weight: 600;
 }
 @media (max-width: 500px) {
@@ -402,7 +403,7 @@ nav .log-in-btn:hover {
 }
 .tour-guide-sign-up h3 {
   font-size: 2rem;
-  padding: 3% 0;
+  margin-bottom: 3%;
 }
 @media (max-width: 500px) {
   .tour-guide-sign-up h3 {
@@ -411,13 +412,13 @@ nav .log-in-btn:hover {
 }
 .tour-guide-sign-up .large-sign-up {
   background: #0E7C7B;
-  width: 90%;
+  width: 85%;
   padding: 2% 0;
   border-radius: 5px;
   margin: 0 auto;
   color: #FFFFFF;
   font-weight: 600;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   border: 1px solid #0E7C7B;
   cursor: pointer;
 }
@@ -528,17 +529,17 @@ footer p {
   height: 368px;
 }
 .about-overlay {
-  padding-top: 30px;
+  padding-top: 24px;
   display: flex;
   margin: 0 auto;
 }
 .about-text {
   text-align: center;
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   font-weight: 500;
   font-size: 1.8rem;
-  padding: 2% 2%;
+  padding: 1% 1%;
   line-height: 160%;
 }
 @media (max-width: 1200px) {
@@ -553,7 +554,7 @@ footer p {
 }
 .about-bottom-half h2 {
   font-size: 4rem;
-  margin-top: 1%;
+  margin-top: 1.5%;
   font-weight: 600;
   text-align: center;
 }
