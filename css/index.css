@@ -231,7 +231,7 @@ nav .sign-up-btn {
   width: 80px;
   color: #FFFFFF;
   text-align: center;
-  margin-left: -25px;
+  margin-left: -20px;
   border-radius: 5px;
   border: 1px solid #0E7C7B;
 }
@@ -412,7 +412,7 @@ nav .log-in-btn:hover {
 }
 .tour-guide-sign-up .large-sign-up {
   background: #0E7C7B;
-  width: 70%;
+  width: 85%;
   padding: 2% 0;
   border-radius: 5px;
   margin: 0 auto;
@@ -529,7 +529,7 @@ footer p {
   height: 368px;
 }
 .about-overlay {
-  padding-top: 30px;
+  padding-top: 24px;
   display: flex;
   margin: 0 auto;
 }
