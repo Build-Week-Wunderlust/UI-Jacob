@@ -542,11 +542,6 @@ footer {
   width: 90%;
   margin-bottom: 2%;
 }
-@media (max-width: 500px) {
-  .about-bottom-half .team-member .bio {
-    width: 80%;
-  }
-}
 .about-bottom-half .team-member .bio img {
   cursor: pointer;
   width: 60px;
