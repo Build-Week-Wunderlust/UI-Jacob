@@ -190,6 +190,11 @@ nav .left-nav {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  nav .left-nav {
+    margin-left: 20px;
+  }
+}
 nav .home-link {
   margin-right: 2%;
 }
@@ -304,6 +309,12 @@ nav .log-in-btn:hover {
     max-width: 80%;
   }
 }
+@media (max-width: 500px) {
+  .hero-img .img-overlay {
+    width: 90%;
+    padding-left: 50px;
+  }
+}
 .hero-img .img-overlay h2 {
   font-size: 4.8rem;
   font-weight: 600;
@@ -350,6 +361,11 @@ nav .log-in-btn:hover {
   background: #0E7C7B;
   padding: 11px 30px;
   border-radius: 0 5px 5px 0;
+}
+@media (max-width: 500px) {
+  .hero-img .img-overlay .find-button p {
+    padding: 11px 20px;
+  }
 }
 .hero-img .img-overlay .find-button p:hover {
   color: #0E7C7B;

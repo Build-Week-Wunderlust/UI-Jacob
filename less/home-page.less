@@ -20,6 +20,10 @@
             margin: 0 auto;
             max-width: 80%;
         }
+        @media @phone {
+            width: 90%;
+            padding-left: 50px;
+        }
         h2 {
             font-size: 4.8rem;
             font-weight: 600;
@@ -60,6 +64,9 @@
                 background: @surfie-green; 
                 padding: 11px 30px;
                 border-radius: 0 5px 5px 0;
+                @media @phone {
+                    padding: 11px 20px;
+                }
                 
                 &:hover {
                     color: @surfie-green;
