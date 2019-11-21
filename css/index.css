@@ -374,6 +374,11 @@ nav .log-in-btn:hover {
   flex-direction: column;
   margin-bottom: 10%;
 }
+@media (max-width: 1200px) {
+  .lower-half {
+    margin-bottom: 150px;
+  }
+}
 @media (max-width: 500px) {
   .lower-half {
     flex-direction: column-reverse;
