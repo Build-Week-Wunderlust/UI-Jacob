@@ -230,13 +230,13 @@ nav .sign-up-btn {
   padding: 8px 0px;
   width: 80px;
   color: #FFFFFF;
-  text-align: center;
-  margin-left: -20px;
   border-radius: 5px;
+  text-align: center;
   border: 1px solid #0E7C7B;
+  margin-left: -20px;
 }
 nav .sign-up-btn:hover {
-  color: #362E34;
+  color: #0E7C7B;
   background-color: #FFFFFF;
 }
 @media (max-width: 500px) {
@@ -256,11 +256,22 @@ nav .sign-up-btn:hover {
 nav .log-in-btn {
   background-color: #F0F0F0;
   padding: 8px 0px;
-  text-align: center;
   width: 80px;
-  border-radius: 5px;
   color: #362E34;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #F0F0F0;
   margin-left: 15px;
+}
+nav .log-in-btn:hover {
+  color: #F0F0F0;
+  background-color: #362E34;
+}
+@media (max-width: 500px) {
+  nav .log-in-btn:hover {
+    color: #94909B;
+    background: none;
+  }
 }
 nav .log-in-btn:hover {
   color: #F0F0F0;
@@ -280,6 +291,21 @@ nav .log-in-btn:hover {
     border: none;
     background: none;
   }
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  background: #0E7C7B;
+}
+footer p {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 .hero-img {
   background-image: url('/img/helicopter.png');
@@ -391,6 +417,9 @@ nav .log-in-btn:hover {
   margin-top: 1%;
   margin-bottom: 2%;
 }
+.tour-guide-sign-up a {
+  text-decoration: none;
+}
 .tour-guide-sign-up h2 {
   font-size: 4.8rem;
   margin-bottom: 3%;
@@ -489,6 +518,7 @@ nav .log-in-btn:hover {
 }
 .testimonials .cards img {
   max-width: 100%;
+  border-radius: 5px 0 0 5px;
 }
 .testimonials .cards .card-text {
   display: flex;
@@ -496,6 +526,7 @@ nav .log-in-btn:hover {
   width: 80%;
   background-color: #F0F0F0;
   padding: 5% 5%;
+  border-radius: 0px 5px 5px 0px;
 }
 .testimonials .cards .card-text h3 {
   font-weight: 500;
@@ -505,21 +536,6 @@ nav .log-in-btn:hover {
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 125%;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 8vh;
-  background: #0E7C7B;
-}
-footer p {
-  color: #FFFFFF;
-  font-size: 1.5rem;
-  font-weight: 300;
 }
 .hero-img-about {
   background-image: url('/img/mountains.jpeg');
@@ -537,8 +553,8 @@ footer p {
   text-align: center;
   width: 90%;
   margin: 0 auto;
-  font-weight: 500;
-  font-size: 1.8rem;
+  font-weight: 400;
+  font-size: 1.7rem;
   padding: 1% 1%;
   line-height: 160%;
 }
@@ -640,7 +656,7 @@ footer p {
 }
 .about-bottom-half .team-member img {
   max-width: 70%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 @media (max-width: 1200px) {
   .about-bottom-half .team-member img {
