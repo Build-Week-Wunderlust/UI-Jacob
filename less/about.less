@@ -13,31 +13,20 @@
 .about-overlay {
     color: @white;
     font-size: 4rem;
-    display: none;
-    text-align: center;
     
+    text-align: center;
     font-weight: 600;
+    
 }
 
-h2 {
-    font-size: 4rem;
-    margin-top: 1%;
-    font-weight: 600;
-    text-align: center;
-    @media @tablet {
-        font-size: 3rem;
-    }
-    @media @phone {
-        display: none;
-    }
-}
+
 
 .about-text {
         
         text-align: center;
         width: 95%;
         margin: 0 auto;
-        font-weight: 600;
+        font-weight: 500;
         font-size: 1.8rem;
         padding: 2% 2%;
         line-height: 160%;
@@ -49,83 +38,93 @@ h2 {
         }
 }
 
-
-
-
-.team {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.team-member {
-    width: 30%;
-    margin: 1%;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    @media @tablet {
-        width: 44%;
-        padding: 0;
-    }
-    .bio {
-        display: flex;
-        justify-content: space-around;
-        
-        width: 90%;
-        margin-bottom: 2%;
+.about-bottom-half {
+    h2 {
+        font-size: 4rem;
+        margin-top: 1%;
+        font-weight: 600;
+        text-align: center;
+        @media @tablet {
+            font-size: 3rem;
+        }
         @media @phone {
-            width: 80%;
-        }
-        img {
-            cursor: pointer;
-            width: 60px;
-            @media @tablet {
-                width: 40px;
-            }
-            @media @phone {
-                width: 20%;
-            }
+            display: none;
         }
     }
-
-    .names {
+    .team {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .team-member {
+        width: 30%;
+        margin: 1%;
+        
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-    }
+        align-items: center;
+        @media @tablet {
+            width: 44%;
+            padding: 0;
+        }
+        @media @phone {
+            width: 100%;
+        }
+        .bio {
+            display: flex;
+            justify-content: space-around;
+            
+            width: 90%;
+            margin-bottom: 2%;
+            @media @phone {
+                width: 80%;
+            }
+            img {
+                cursor: pointer;
+                width: 60px;
+                @media @tablet {
+                    width: 40px;
+                }
+                
+            }
+        }
     
-    h3 {
-        font-weight: 500;
-        font-size: 2.5rem;
-        margin-bottom: 2%;
-        @media @tablet {
-            font-size: 1.8rem;
+        .names {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
-        @media @phone {
-            font-size: 1.5rem;
+        
+        h3 {
+            font-weight: 500;
+            font-size: 2.5rem;
+            margin-bottom: 2%;
+            @media @tablet {
+                font-size: 1.8rem;
+            }
+            
         }
-    }
-    p {
-        font-weight: 600;
-        font-size: 1.6rem; 
-        margin-bottom: 2%;
-        @media @tablet {
-            font-size: 1.5rem;
+        p {
+            font-weight: 600;
+            font-size: 1.6rem; 
+            margin-bottom: 2%;
+            @media @tablet {
+                font-size: 1.5rem;
+            }
+            
         }
-        @media @phone {
-            font-size: 1rem;
-        }
-    }
-    
-    img {
-        max-width: 70%;
-        border-radius: 10px;
-        @media @tablet {
-            max-width: 75%;
-        }
-        @media @phone {
-            max-width: 80%;
+        
+        img {
+            max-width: 70%;
+            border-radius: 10px;
+            @media @tablet {
+                max-width: 75%;
+            }
+            @media @phone {
+                max-width: 70%;
+            }
         }
     }
 }
+
+
