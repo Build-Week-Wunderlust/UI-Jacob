@@ -60,22 +60,8 @@ nav {
     
     
     .sign-up-btn {
-        background-color: @surfie-green;
-        padding: 8px 0px;
-        width: 80px;
-        color: @white;
-        text-align: center;
+        .create-nav-btn(@surfie-green, @white, @surfie-green);
         margin-left: -20px;
-        border-radius: 5px;        
-        border: 1px solid @surfie-green;
-        &:hover {
-            color: @thunder;
-            background-color: @white;
-            @media @phone {
-                color: @mountain-mist;
-                background: none;
-            }
-        }
         @media @phone {
             padding: 0;
             margin: 0;
@@ -83,13 +69,9 @@ nav {
             color: @white;
         }
     }
+
     .log-in-btn {
-        background-color: @gallery;
-        padding: 8px 0px;
-        text-align: center;
-        width: 80px;
-        border-radius: 5px;
-        color: @thunder;
+        .create-nav-btn(@gallery, @thunder, @gallery);
         margin-left: 15px;
         &:hover {
             color: @gallery;
